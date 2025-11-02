@@ -91,6 +91,12 @@ let g:NERDTreeMenuUp='s'
 let g:NERDTreeMenuDown='i'
 let g:NERDTreeMapRefresh='l'
 let g:NERDTreeMapCustomOpen='t'
+" Tagbar
+call Mapmap('<Leader>t', ':TagbarToggle<CR>')
+let g:tagbar_map_togglecaseinsensitive = ""
+let g:tagbar_map_togglesort = ""
+let g:tagbar_map_togglepause = ""
+let g:tagbar_map_jump = "t"
 " Etc
 call Mapmap('<Leader>b', '<C-o>')
 call Mapmap('<Leader>B', '<C-i>')
